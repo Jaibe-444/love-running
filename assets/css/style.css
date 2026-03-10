@@ -56,9 +56,20 @@ h1 {
     color: #252525;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    box-shadow: 0 2px 23px #3a3a3a;
+    display: none;
+}
+
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: #ffffff;
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
